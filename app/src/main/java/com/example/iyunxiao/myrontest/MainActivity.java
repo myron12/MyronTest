@@ -67,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
 //       features.forEach(n->System.out.println(n));
 
 
+        String str;
+
 
 
     }
