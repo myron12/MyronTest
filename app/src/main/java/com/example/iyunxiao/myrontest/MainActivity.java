@@ -1,11 +1,16 @@
 package com.example.iyunxiao.myrontest;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private Button mTextMy;
@@ -37,6 +42,31 @@ public class MainActivity extends AppCompatActivity {
 //                textView.setText("hkhjjkjjjjjj");
 //            }
 //        });
+        mTextMy.setOnClickListener((v) -> {
+        });
+
+        init();
+    }
+
+    private void init() {
+//        1.
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println("Before Java8, too much code for too little to do");
+//            }
+//        }).start();
+//        new Thread(()->System.out.println("In Java8, Lambda expression rocks !!")).start();
+
+//        2.
+//        List<String> features = Arrays.asList("Lambdas", "Default Method", "Stream API", "Date and Time API");
+//        for (String feature : features) {
+//            System.out.println(feature);
+//        }
+//        List<String> features = Arrays.asList("Lambdas", "Default Method", "Stream API", "Date and Time API");
+//       features.forEach(n->System.out.println(n));
+
+
 
 
     }
