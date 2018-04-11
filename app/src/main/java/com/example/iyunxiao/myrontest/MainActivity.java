@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         init();
     }
+    String str ;
 
     private void init() {
 //        1.
@@ -66,8 +67,7 @@ public class MainActivity extends AppCompatActivity {
 //        List<String> features = Arrays.asList("Lambdas", "Default Method", "Stream API", "Date and Time API");
 //       features.forEach(n->System.out.println(n));
 
-
-
+str = "myron";
 
     }
 
