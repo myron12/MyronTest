@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     private TextView mTextMys;
 
     private ViewStub mViewStub;
-    private String str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
