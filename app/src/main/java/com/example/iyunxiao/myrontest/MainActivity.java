@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
 str = "myron";
 
+str = "maqihang";
+
     }
 
 }
