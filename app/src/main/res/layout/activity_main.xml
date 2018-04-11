@@ -25,4 +25,8 @@
         <!--android:layout="@layout/mylayout"-->
         <!--android:layout_centerInParent="true"/>-->
 
+    <com.github.chrisbanes.photoview.PhotoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>

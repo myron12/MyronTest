@@ -3,6 +3,7 @@ package com.example.iyunxiao.myrontest;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewStub;
 import android.widget.Button;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
 str = "myron";
 
 str = "maqihang";
+        Log.e("info","abc");
 
     }
 
