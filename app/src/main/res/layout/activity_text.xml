@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/texts"
+        android:layout_below="@id/text_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        />
+
+    <TextView
+        android:id="@+id/textss"
+        android:layout_below="@id/text_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="健康坎坎坷坷坎"
+        android:textSize="16sp"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

@@ -8,9 +8,12 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.iyunxiao.myrontest.glide.GlideBackgroundTransform;
 import com.github.chrisbanes.photoview.PhotoView;
+
 
 public class MainActivity extends AppCompatActivity {
     private Button mTextMy;
@@ -109,6 +112,7 @@ str = "maqihang";
                 .load(path1)
                 .apply(RequestOptions.bitmapTransform(new GlideBackgroundTransform(this,getResources().getColor(R.color.c13_a93))))
                 .into(mPhotoView);
+
     }
 
 }
